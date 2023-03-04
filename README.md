@@ -16,7 +16,7 @@ Best case: Aradığımız sayının dizinin en başında olması.
 
 ----------------
 
-# Cevap 1
+## Cevap 1
 1. [22,27,16,2,18,6]
 2. [2,27,16,22,18,6]
 3. [2,6,16,22,18,27]
@@ -31,6 +31,7 @@ Best case: Aradığımız sayının dizinin en başında olması.
 
 -----------------
 
+## Cevap 2
 1. [2,3,5,8,7,9,4,15,6]
 2. [2,3,4,8,7,9,5,15,6]
 3. [2,3,4,5,7,9,8,15,6]
@@ -62,10 +63,29 @@ Best case: Aradığımız sayının dizinin en başında olması.
          [11,16,21]        [8,12,22]
                 \            /
               [8,11,12,16,21,22]
-              
+
 ```
 
 
 * Big-O gösterimini yazınız. --> O(n.logn)
 
 
+# Proje 3
+## Soru 1
+**[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]** dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+## Cevap 1
+```
+Root =      7     ise;
+           /  \
+          5    8
+         / \    \
+        1   6    9
+       / \  
+      0   3 
+         / \
+        2   4
+
+```
